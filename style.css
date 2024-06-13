@@ -1,0 +1,82 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "poppins";
+  background-image: url("./asserts/background-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.todo-app
+{
+  min-height: 30em;
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  background-color: #ffffffa2;
+
+  
+}
+
+.addTodoBar{
+  display: flex;
+  gap: 0.4em;
+  /* border: 1px solid red; */
+  padding: 0.3em;
+}
+.input-bar{
+  border: none;
+  padding:0.2em 0.3em;
+  font-size: 0.9em;
+  width: 15em;
+  height: 2em;
+}
+.input-bar:focus{
+  border: none;
+  outline: none;
+
+}
+.addButton{
+  border: none;
+  padding: 0.2em 0.5em;
+  background-color: rgb(245, 196, 105);
+  color: #f2f4f7;
+  cursor: pointer;
+}
+.todo-items{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.todo-item
+{
+display: flex;
+gap: 1em;
+width: 16em;
+/* border: 1px solid red; */
+justify-content: space-between;
+background-color: #f2f4f7;
+padding: 0.4em;
+box-shadow: 1px -1px 4px 0px black;}
+
+.remove-item{
+  background-color: red;
+  border: none;
+  padding: 0.2em 0.4em;
+  color: #f2f4f7;
+  cursor: pointer;
+}
+
